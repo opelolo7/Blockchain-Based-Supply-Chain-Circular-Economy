@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.end-of-life-management]
+path = 'contracts/end-of-life-management.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.material-passport]
 path = 'contracts/material-passport.clar'
 clarity_version = 2
